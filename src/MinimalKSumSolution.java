@@ -1,6 +1,6 @@
 public class MinimalKSumSolution {
 
-    public static int minimalKSum(int[] nums, int k){
+    public  int minimalKSum(int[] nums, int k){
         int[] extendedNums=new int[2* nums.length];
         int result=0;
         int counter=0;
